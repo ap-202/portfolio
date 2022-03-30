@@ -10,7 +10,7 @@ import { Grid } from "@mui/material";
 function NavBar(){
     return(
         <Box sx = {{flexGrow : 1}}>
-            <AppBar elevation={0} style={{backgroundColor: "#2A2B2A"}}>
+            <AppBar style={{backgroundColor: "#1C4670"}}>
                 <Toolbar>
                     <Grid container direction = "row" justifyContent="center" alignItems="center" align = "center" justify = "center">
                         <Grid item xs = {2}>
@@ -22,7 +22,7 @@ function NavBar(){
                                         color: 'black',
                                         display: 'inline-block',
                                         font: "arial",
-                                        color: "#37FF8B "
+                                        color: "#EAEAE0 "
                                     }}
                                     >
                                     About Me
@@ -38,7 +38,7 @@ function NavBar(){
                                         color: 'black',
                                         display: 'inline-block',
                                         font: "arial",
-                                        color: "#37FF8B"
+                                        color: "#EAEAE0"
                                     }}
                                     >
                                     Education
@@ -54,7 +54,7 @@ function NavBar(){
                                         color: 'black',
                                         display: 'inline-block',
                                         font: "arial",
-                                        color: "#37FF8B"
+                                        color: "#EAEAE0"
                                     }}
                                     >
                                     Work
@@ -70,7 +70,7 @@ function NavBar(){
                                         color: 'black',
                                         display: 'inline-block',
                                         font: "arial",
-                                        color: "#37FF8B"
+                                        color: "#EAEAE0"
                                     }}
                                     >
                                     Projects
@@ -86,7 +86,7 @@ function NavBar(){
                                         color: 'black',
                                         display: 'inline-block',
                                         font: "arial",
-                                        color: "#37FF8B"
+                                        color: "#EAEAE0"
                                     }}
                                     >
                                     Contacts
